@@ -47,7 +47,7 @@ export function SocketTest() {
 
     return (
         <div>
-            <input type="text" name="ynsinput" onChange={onChangeHandler} value={fieldValue} />
+            <input type="text" name="myinput" onChange={onChangeHandler} value={fieldValue} />
             <button onClick={() => handleClick()}>
                 Gönder
             </button>
